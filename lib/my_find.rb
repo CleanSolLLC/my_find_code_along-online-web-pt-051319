@@ -4,13 +4,11 @@ def my_find(collection)
   i = 0
 
   while i < collection.length
-    if yield(collection[i]) == "true"
+    if yield(collection[i])
       return collection[i]
-      break
-    else
+    end
     i+=1
     end
-  end
 end
 
 collection = (1..100).to_a
