@@ -5,10 +5,10 @@ def my_find(collection)
 
   while i < collection.length
       return collection[i] if yield(collection[i])
+      binding.pry
     i+=1
     end
-puts collection[i]
-binding.pry
+
 end
 
 collection = (1..100).to_a
