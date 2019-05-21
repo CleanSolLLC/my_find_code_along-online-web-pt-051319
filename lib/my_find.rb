@@ -8,6 +8,7 @@ def my_find(collection)
     i+=1
     end
 puts collection[i]
+binding.pry
 end
 
 collection = (1..100).to_a
