@@ -9,8 +9,8 @@ def my_find(collection)
       break
     else
     i+=1
+    end
   end
-
 end
 
 collection = (1..100).to_a
